@@ -13,11 +13,18 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 
 # create a ollama server
-ollama serve
+# ollama serve
+
+############################### &>/dev/null &
+# redirect the command to /dev/null 
+# and later append to background
+ollama serve &>/dev/null &
+
 
 # start the software
-ollama run llama3
+# ollama run llama3
 
+ollama run llama3 &>/dev/null &
 
 
 
