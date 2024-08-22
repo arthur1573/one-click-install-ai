@@ -7,7 +7,8 @@ echo "for github's codespace"
 
 
 # download ollama
-curl -fsSL https://ollama.com/install.sh
+curl -fsSL https://ollama.com/install.sh | sh
+
 
 
 
