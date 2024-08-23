@@ -1,6 +1,6 @@
 
 
-open codespace in Visual Studio Code
+open codespace in visual studio code
 
 
 git clone https://github.com/arthur1573/one-click-install-ai
